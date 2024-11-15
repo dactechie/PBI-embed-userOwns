@@ -27,7 +27,7 @@ function generateMsalConfig() {
         auth: {
             clientId: config.clientId,
             authority: config.authorityUrl,
-            redirectUri: "https://ashy-coast-0b11ba300.5.azurestaticapps.net/" //"http://localhost:3000",
+            redirectUri: "https://victorious-sea-04601d900.5.azurestaticapps.net" //"http://localhost:3000",
         },
         cache: {
             cacheLocation: "sessionStorage", // This configures where your cache will be stored
